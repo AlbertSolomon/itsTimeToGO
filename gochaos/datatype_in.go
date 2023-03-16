@@ -12,6 +12,9 @@ func main() {
 	
 	// int, float64, bool, string, rune
 	// Default type 0, 0.0, false, ""
+
+	const PI = 3.14
+
 	number := false
 	number1 := 1
 	number2 := 2.1
@@ -21,4 +24,5 @@ func main() {
 	displayStuff("The type of number1 is :", reflect.TypeOf(number1))
 	displayStuff("The type of number2 is :", reflect.TypeOf(number2))
 	displayStuff("The type of number3 is :", reflect.TypeOf(number3))
+	displayStuff("The type of PI is :", reflect.TypeOf(PI))
 }
