@@ -20,6 +20,8 @@ func main() {
 
 	if age >= 10 && age <=16 {
 		displayStuff("you must be in high school")
+	} else if age == 10 {
+		 displayStuff(" go watch ben 10")
 	}else {
 		displayStuff("i just dont know")
 	}
