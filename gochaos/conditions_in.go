@@ -40,5 +40,7 @@ func main() {
 		if age > 10 {
 			displayStuff(" %v is more than 10 years, adulthood awaits ..🚮", age)
 		}
+	} else {
+		displayStuff("\n extremely bad service, please save yourself 😂😂😂")
 	}
 }
