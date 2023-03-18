@@ -24,4 +24,6 @@ func main() {
 		print(" \n the statement is false......")
 	}
 
+	emojiString := strings.Replace(editedSocialMedia, "e", "👾", -1) // -1 means search through the whole string
+	print("the string becomes %v", emojiString)
 }
