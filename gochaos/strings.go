@@ -16,4 +16,12 @@ func main() {
 
 	editedSocialMedia := replacer.Replace(socialMedia)
 	print("the correct social media string is %v", editedSocialMedia)
+	print("The length of the string is %v", len(editedSocialMedia))
+	
+	if strings.Contains(socialMedia, "w") {
+		print(" \nThe string contains 'w'")
+	}else{
+		print(" \n the statement is false......")
+	}
+
 }
