@@ -16,7 +16,7 @@ func main() {
 
 	editedSocialMedia := replacer.Replace(socialMedia)
 	print("the correct social media string is %v", editedSocialMedia)
-	print("The length of the string is %v", len(editedSocialMedia))
+	print("\nThe length of the string is %v", len(editedSocialMedia))
 	
 	if strings.Contains(socialMedia, "w") {
 		print(" \nThe string contains 'w'")
@@ -25,9 +25,14 @@ func main() {
 	}
 
 	emojiString := strings.Replace(editedSocialMedia, "e", "👾", -1) // -1 means search through the whole string
-	print("the string becomes %v", emojiString)
+	print("\nthe string becomes %v", emojiString)
 
 	containsEsc := "\n ..next line \n"
 	removeEsc := strings.TrimSpace(containsEsc)
 	print("\n removining spaces %v", removeEsc)
+
+	dirtyString := "S=ome============thi=n==g e=l====s=e"
+	cleanThatString := strings.Split(dirtyString, "=")
+	print("\n cleaning the string %v", cleanThatString)
+
 }
