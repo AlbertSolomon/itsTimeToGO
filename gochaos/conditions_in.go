@@ -14,6 +14,7 @@ func main() {
 
 	age := 15
 	number := 50
+	network_available := false
 
 	if age < 18 {
 		displayStuff("You are %v which is less than 18, hence too young for this\n", age)
@@ -33,5 +34,11 @@ func main() {
 		displayStuff(" %v is 20 upwards ", number)
 	}else {
 		displayStuff("NUmber is less than %v ", number)
+	}
+
+	if network_available {
+		if age > 10 {
+			displayStuff(" %v is more than 10 years, adulthood awaits ..🚮", age)
+		}
 	}
 }
