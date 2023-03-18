@@ -15,4 +15,7 @@ func main() {
 
 	print("abcdef character rune is %v:\n", characterRune)
 
+	for i, runeValue := range abcdef {
+		print("%d : %#U :%c \n ", i, runeValue, runeValue)
+	}
 }
