@@ -20,4 +20,11 @@ func main() {
 
 	sum := number + array1[2]
 	print(" the sum is :", sum)
+
+	// initializing specific elements
+	array2 :=[5] int{}
+	array2 = [5]int{1:10,2:40}
+
+	print("array 2:", array2)
+
 }
