@@ -9,7 +9,15 @@ var print = fmt.Println
 func main() {
 	// arrays in go are kinda weird, the syntax that is
 
-	array := [4] int{1,3,4,5}
+	array := [4]int{1, 3, 4, 5}
+	var array1 = [4]int{10, 30, 40, 50}
 
 	print("array", array)
+	print("array1", array1)
+
+	number := array[1]
+	array1[2] = 100
+
+	sum := number + array1[2]
+	print(" the sum is :", sum)
 }
