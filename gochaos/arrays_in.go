@@ -23,8 +23,15 @@ func main() {
 
 	// initializing specific elements
 	array2 :=[5] int{}
-	array2 = [5]int{1:10,2:40}
+	array2 = [5]int{1:10, 2:40}
 
 	print("array 2:", array2)
+
+	// Arrays with inferred length
+	newArray :=[...] int {1, 2, 3}
+	secondArray := [...] int {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	print("newArray:", newArray)
+	print("secondArray:", secondArray)
 
 }
