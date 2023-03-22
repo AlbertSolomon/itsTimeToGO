@@ -34,4 +34,7 @@ func main() {
 	print("newArray:", newArray)
 	print("secondArray:", secondArray)
 
+	// Length of an array
+	print("length:", len(secondArray))
+
 }
