@@ -24,4 +24,17 @@ func  main(){
 	print("the length of a new slice: ", len(newSlice))
 	print("the capacity of a new slice is : ", cap(newSlice))
 	print("a new slice: ", newSlice)
+
+	// lets make a slice 😉 
+	slice := make([] int ,5, 10)
+	slice2 := make([] int ,5)
+	print("a slice: ", slice)
+	print("slice2 with omitted capacity: ", slice2)
+
+	print("slice capacity:", cap(slice))
+	print("slice length:", len(slice))
+	
+	print("slice2 capacity:", cap(slice2))
+	print("slice2 length:", len(slice2))
+
 }
