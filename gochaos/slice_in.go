@@ -33,8 +33,13 @@ func  main(){
 
 	print("slice capacity:", cap(slice))
 	print("slice length:", len(slice))
-	
+
 	print("slice2 capacity:", cap(slice2))
 	print("slice2 length:", len(slice2))
+
+	slice = append(slice, 1, 3, 5, 6)
+	print(slice)
+	slice2 = append(slice2, 1, 3, 5, 6)
+	print("slice 2: ", slice2)
 
 }
