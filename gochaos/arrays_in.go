@@ -23,7 +23,7 @@ func main() {
 
 	// initializing specific elements
 	array2 :=[5] int{}
-	array2 = [5]int{1:10, 2:40}
+	array2 = [5] int{1:10, 2:40}
 
 	print("array 2:", array2)
 
