@@ -42,4 +42,6 @@ func  main(){
 	slice2 = append(slice2, 1, 3, 5, 6)
 	print("slice 2: ", slice2)
 
+	// more on go slices
+
 }
