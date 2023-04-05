@@ -4,10 +4,11 @@ import (
 	"fmt"
 )
 
-var print = fmt.Println
+var printf = fmt.Println
 
 func main(){
+	
 	for i := 0; i < 10; i++ {
-		print("solo", i)
+		printf("solo", i)
 	}
 }
