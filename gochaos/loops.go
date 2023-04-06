@@ -17,6 +17,9 @@ func main(){
 	
 	printf("executing a lazy function")
 	lazyLooping()
+
+	printf("executing function with nestsed loops")
+	nestemLoops()
 }
 
 func furtherLooping(){
@@ -38,5 +41,16 @@ func lazyLooping(){
 			break
 		}
 		printf("the lazy i is ", i)
+	}
+}
+
+func nestemLoops(){
+	description := [...] string {"Big", "Tasty"}
+	fruits := [...] string {"🍏", "🍑"}
+	
+	for i:=0 ; i<len(description); i++ {
+		for fruit := 0; fruit < len(fruits); fruit++ {
+			printf(description[i], fruits[fruit])
+		}
 	}
 }
