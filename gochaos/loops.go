@@ -18,8 +18,11 @@ func main(){
 	printf("executing a lazy function")
 	lazyLooping()
 
-	printf("executing function with nestsed loops")
+	printf("executing function with nested loops")
 	nestemLoops()
+
+	printf("executing function with range in a loop")
+	loopsofrange()
 }
 
 func furtherLooping(){
@@ -56,6 +59,9 @@ func nestemLoops(){
 }
 
 // a different implementation using range 
+// go giving me c vibes 🤣
 func loopsofrange(){
-
+	for index, value := range fruits {
+		printf(index, value)
+	}
 }
