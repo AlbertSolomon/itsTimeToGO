@@ -27,6 +27,8 @@ func main(){
 	printf("executing function omitting index in a loop")
 	omittingIndex()
 
+	printf("executing function omitting value in a loop")
+	ommitingValue()
 }
 
 func furtherLooping(){
@@ -77,3 +79,8 @@ func omittingIndex(){
 	}
 }
 
+func ommitingValue(){
+	for index, _:= range description{
+		printf(index)
+	}
+}
