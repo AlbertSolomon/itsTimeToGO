@@ -48,7 +48,7 @@ func nestemLoops(){
 	description := [...] string {"Big", "Tasty"}
 	fruits := [...] string {"🍏", "🍑"}
 	
-	for i:=0 ; i<len(description); i++ {
+	for i := 0; i < len(description); i++ {
 		for fruit := 0; fruit < len(fruits); fruit++ {
 			printf(description[i], fruits[fruit])
 		}
