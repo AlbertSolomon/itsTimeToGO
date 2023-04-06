@@ -44,13 +44,18 @@ func lazyLooping(){
 	}
 }
 
-func nestemLoops(){
-	description := [...] string {"Big", "Tasty"}
-	fruits := [...] string {"🍏", "🍑"}
-	
+var description = [...] string {"Big", "Tasty"}
+var fruits = [...] string {"🍏", "🍑"}
+
+func nestemLoops(){	
 	for i := 0; i < len(description); i++ {
 		for fruit := 0; fruit < len(fruits); fruit++ {
 			printf(description[i], fruits[fruit])
 		}
 	}
+}
+
+// a different implementation using range 
+func loopsofrange(){
+
 }
