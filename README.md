@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="https://github.com/AlbertSolomon/itsTimeToGO/blob/main/gochaos/assets/goooo.gif" alt="go thingii">
+</div>
 # itsTimeToGOv💨
 
 Learning Go 💨
