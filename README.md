@@ -1,8 +1,7 @@
 <div align="center">
-    <img src="https://github.com/AlbertSolomon/itsTimeToGO/blob/main/gochaos/assets/goooo.gif" alt="go thingii">
+    <img width="350" height="325" src="https://github.com/AlbertSolomon/itsTimeToGO/blob/main/gochaos/assets/goooo.gif" alt="go thingii">
 </div>
+
 # itsTimeToGOv💨
 
-Learning Go 💨
-
-Trying to Learn everything about GO as quick as possible.
+>Trying to Learn everything about GO as quick as possible.
