@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var print = fmt.Println
+var printf = fmt.Println
 
 type Names struct {
 	name string 
@@ -20,5 +20,10 @@ func main(){
 	name.name = "captain"
 	name.age = 10
 
+	printf("name is:", name.name)
+	printf("name's age is:", name.age)
+	
+	printf("named1's age is:", named1.name)
+	printf("named1's age is:", named1.age)
 
 }
