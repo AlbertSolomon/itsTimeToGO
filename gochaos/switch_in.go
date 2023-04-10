@@ -11,7 +11,7 @@ func main() {
 
 	day := 5
 
-	switch day{
+	switch day {
 		case 1:
 			printf("the day is monday")
 		case 2:
@@ -22,6 +22,14 @@ func main() {
 			printf("the day is thursday")
 		case 5:
 			printf("the day is friiiii")
+	}
+
+	// another switch statement
+	switch day {
+		case 5,6:
+			printf("yeeeeeey weeekend")
+		case 1,2,3,4:
+			printf("yeeeeeey we work")
 	}
 
 }
