@@ -18,4 +18,9 @@ func main(){
 	printf("making a map ", makingAmap)
 
 	// empty maps
+	var emptyMap = make(map[string]int)
+	var b map[string]string
+
+	printf(emptyMap == nil)
+	printf(b == nil)
 }
