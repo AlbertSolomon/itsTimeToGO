@@ -16,4 +16,6 @@ func main(){
 	makingAmap["orange"] = 1
 
 	printf("making a map ", makingAmap)
+
+	// empty maps
 }
