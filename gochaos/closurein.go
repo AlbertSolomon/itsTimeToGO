@@ -7,7 +7,7 @@ import (
 var printf = fmt.Println
 
 func main() {
-
+	callingintSequenceMutipletimes()
 }
 
 // from go by examples
@@ -23,7 +23,9 @@ func intSequence() func() int {
 
 func callingintSequenceMutipletimes() {
 	numberOftimes := 10
+	nextInt := intSequence()
+	
 	for seq := 0; seq < numberOftimes; seq++ {
-		printf(intSequence())
+		printf(nextInt())
 	}
 }
